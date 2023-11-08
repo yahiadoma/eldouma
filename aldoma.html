@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>sds</title>
+    <style>
+        header{
+            font-family: arial;
+            font-size: 25px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            padding: 15px;
+        }
+        .brand-title{
+            font-size: 25px;
+            color: antiquewhite;
+        }
+        article{
+            text-align: center;
+            font-size: 25px;
+            font-family: arial;
+            font-weight: bold;
+            padding: 15px;
+            color:black;
+            background-color: aquamarine;
+        }
+        .bi-lightning-fill{
+            color: goldenrod;
+        }
+        section{
+            display: grid;
+            grid-template-columns:3fr 3fr 3fr 3fr;
+            grid-gap: 15px;
+        }
+        .yahia{
+            border: 1px solid black;
+            height: 250px;
+        }
+        .yahia img{
+            width: 100%;
+            height: 80%;
+        }
+        .yahia p{
+            font-size: 15px;
+            font-family: arial;
+            font-weight: bold;
+            color: brown;
+            text-align: center;
+        }
+        footer {
+display: grid;
+grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+padding: 20px;
+background-color: black;
+color:white;
+font-family: Arial;
+}
+.footer-brand-name {
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.footer-title {
+font-size: 15px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.footer-title~span {
+display: block;
+margin-bottom: 15px;
+}
+aside span {
+margin-right: 5px;
+font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-title">Eldoma Group service</span>
+        </div>
+        <div>
+            <nav>
+                <span>about us</span>
+                <span>location</span>
+                <span>contacts</span>
+                <span>other</span>
+            </nav>
+        </div>
+        <div>
+            <form>
+                <span>
+                    <input type="text" size="20" placeholder="Enter here" list="drone list" >
+                    <button>search</button>
+                    <datalist id="drone list">
+                        <option>education</option>
+                        <option><a href="/Eldoma-hospital.html">hospital</a></option>
+                        <option>Hotels</option>
+                        <option>other</option>
+                    </datalist>
+                </span>
+                </form>     
+        </div>
+    </header>
+    <article>
+        <marquee>
+        <span class="bi bi-lightning-fill"></span>
+        <span>Well Come to Eldoma Group service</span>
+        <span class="bi bi-lightning-fill"></span>
+        </marquee>
+    </article>
+    <section>
+        <div class="yahia">
+            <img src="public/image/hospital.jpg">
+            <p><a href="/Eldoma-hospital.html">Hospital</a></p>
+        </div>
+        <div class="yahia">
+            <img src="public/image/Iconic_Charminar_in_Hyderabad,_India.jpg">
+            <p>Tourism</p>
+        </div>
+        <div class="yahia">
+            <img src="public/image/university.jpg">
+            <p>University</p>
+        </div>
+        <div class="yahia">
+            <img src="public/image/markting.jpg">
+            <p>KLYIEL GROUP</p>
+        </div>
+    </section>
+    <FOOter>
+        <div>
+            <div class="footer-brand-name">Eldoma Group service</div>
+            <aside>
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-linkedin"></span>
+            <span class="bi bi-youtube"></span>
+            </aside>
+            </div>
+            <div>
+            <div class="footer-title">SUPPORT</div>
+            <span>Contact Us</span>
+            <span>FAQs</span>
+            <span>Size Guide</span>
+            <span>Shipping & Returns</span>
+            </div>
+            <div>
+            <div class="footer-title">SHOP</div>
+            <span>Men's Shopping</span>
+            <span>Women's Shopping</span>
+            <span>Kids' Shopping</span>
+            <span>Discounts</span>
+            </div>
+            <div>
+            <div class="footer-title">COMPANY</div>
+            <span>Our Story</span>
+            <span>Careers</span>
+            <span>Terms & Conditions</span>
+            <span>Privacy & Cookie policy</span>
+            </div>
+            <div>
+            <div class="footer-title">CONTACT</div>
+            <span>+249-922222899</span>
+            <span>+966-543251630</span>
+            <span>Email : EldomaGroup@hotmail.com</span>
+            </div>
+    </FOOter>
+</body>
+</html>
