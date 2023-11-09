@@ -65,6 +65,45 @@
                 opacity: 1;
             }
         }
+        @media screen and (orientation:landscape){
+            header{
+                display: grid;
+                grid-row: 1;
+            }
+            article{
+                display: grid;
+                grid-row: 2;
+            }
+            section{
+                display: grid;
+                grid-template-columns: 3fr 3fr 3fr 3fr ;
+                grid-row: 3;
+            }
+            footer{
+                display: grid;
+                grid-row: 4;
+            }
+        }
+        @media screen and (orientation:portrait){
+            header{
+                display: grid;
+                grid-row: 1;
+            }
+            article{
+                display: grid;
+                grid-row: 2;
+            }
+            section{
+                display: grid;
+                grid-template-columns: 12fr;
+                grid-row: 3;
+            }
+            footer{
+                display: grid;
+                grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+                grid-row: 4;
+            }
+        }
         footer {
 display: grid;
 grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
@@ -149,7 +188,6 @@ font-size: 20px;
     </section>
     <FOOter>
         <div>
-            <div class="footer-brand-name">ELDOUMA ENTRPRISE</div>
             <aside>
             <span class="bi bi-facebook"></span>
             <span class="bi bi-twitter"></span>
